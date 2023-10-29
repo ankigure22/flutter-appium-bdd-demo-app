@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f9f2386-447e-4950-be7d-a027059a080e" name="Changes" comment="Second commit">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    <list default="true" id="2f9f2386-447e-4950-be7d-a027059a080e" name="Changes" comment="Fix app commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appium/manager/CapabilitiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appium/manager/CapabilitiesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appium/manager/ServerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appium/manager/ServerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +149,15 @@
       <option name="presentableId" value="Default" />
       <updated>1698011892369</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second commit">
+      <option name="closed" value="true" />
+      <created>1698616354318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698616354318</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +218,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+    <MESSAGE value="Fix app commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix app commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -289,11 +299,6 @@
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebElement.class</url>
-          <line>77</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/appium/stepDefinitions/LoginStepDef.java</url>
           <line>36</line>
           <option name="timeStamp" value="45" />
@@ -313,11 +318,17 @@
           <line>42</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/appium/manager/CapabilitiesManager.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="io.appium.java_client.AppiumExecutionMethod" memberName="driver" />
+        <PinnedItemInfo parentTag="java.lang.NullPointerException" memberName="stackTrace" />
       </pinned-members>
     </pin-to-top-manager>
   </component>

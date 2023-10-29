@@ -40,7 +40,7 @@ public class ServerManager {
         return AppiumDriverLocalService.buildService(new AppiumServiceBuilder().usingAnyFreePort()
                 .withArgument(() -> "--base-path", "/wd/hub").withArgument(GeneralServerFlag.SESSION_OVERRIDE).withLogFile(new File(
                         params.getPlatformName() + "_" + params.getDeviceName() +
-                                File.separator + "Server10.log")));
+                                File.separator + "Server12.log")));
     }
 
 

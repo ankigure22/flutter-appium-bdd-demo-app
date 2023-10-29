@@ -25,11 +25,12 @@ public class CapabilitiesManager {
             flutterCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, props.getProperty("androidAutomationName"));
             flutterCapabilities.setCapability("noReset", "true");
             flutterCapabilities.setCapability("skipUnlock","true");
-            flutterCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, props.getProperty("androidAutomationName"));
             flutterCapabilities.setCapability("newCommandTimeout",300);
+
             String androidAppUrl = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
                   + File.separator + "resources" + File.separator + "app" + File.separator
                   + "flutterlogin-debug.apk";
+            flutterCapabilities.setCapability("app",androidAppUrl);
 
             utils.log().info("appUrl is" + androidAppUrl);
             return flutterCapabilities;
